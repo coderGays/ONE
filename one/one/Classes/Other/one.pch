@@ -1,0 +1,15 @@
+//
+//  one.pch
+//  one
+//
+//  Created by TimorYang on 16/6/23.
+//  Copyright © 2016年 TimorYang. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#define ONEColor(r, g, b, Alpha) [UIColor colorWithRed:(r) / 255.0  green:(g) / 255.0  blue:(b) / 255.0 alpha:Alpha]
+#define ONEScreenW [UIScreen mainScreen].bounds.size.width
+#define ONEScreenH [UIScreen mainScreen].bounds.size.height
+#define ONEBackgroundColor [UIColor colorWithRed:0.979  green:0.990  blue:0.999 alpha:1]
+#endif

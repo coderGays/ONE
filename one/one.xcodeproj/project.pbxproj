@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A07E2C51D1BEBB80051CADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A07E2C41D1BEBB80051CADC /* Assets.xcassets */; };
+		6A07E2C81D1BEBB80051CADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A07E2C61D1BEBB80051CADC /* LaunchScreen.storyboard */; };
+		6A07E2E91D1BEE7D0051CADC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A07E2E21D1BEE7D0051CADC /* AppDelegate.m */; };
+		6A07E2EA1D1BEE7D0051CADC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A07E2E41D1BEE7D0051CADC /* main.m */; };
+		6A07E2ED1D1C10760051CADC /* ONETabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A07E2EC1D1C10760051CADC /* ONETabBarController.m */; };
+		6A07E2F01D1C10940051CADC /* ONENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A07E2EF1D1C10940051CADC /* ONENavigationController.m */; };
+		6A07E2F61D1C20FE0051CADC /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A07E2F51D1C20FE0051CADC /* UIImage+image.m */; };
+		6AE579A31D1C32F000740B1D /* ONEHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE579A21D1C32F000740B1D /* ONEHomeViewController.m */; };
+		6AECC1D51D1CF05D0077274D /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AECC1D41D1CF05D0077274D /* UIBarButtonItem+item.m */; };
+		6AECC1DC1D1D132B0077274D /* ONEMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AECC1DB1D1D132B0077274D /* ONEMovieViewController.m */; };
+		6AECC1DF1D1D136B0077274D /* ONEReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AECC1DE1D1D136B0077274D /* ONEReadViewController.m */; };
+		6AECC1E21D1D15AA0077274D /* ONEMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AECC1E11D1D15AA0077274D /* ONEMusicViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A07E2B51D1BEBB80051CADC /* one.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = one.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A07E2C41D1BEBB80051CADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A07E2C71D1BEBB80051CADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A07E2C91D1BEBB80051CADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A07E2E11D1BEE7D0051CADC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A07E2E21D1BEE7D0051CADC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A07E2E41D1BEE7D0051CADC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A07E2EB1D1C10760051CADC /* ONETabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONETabBarController.h; sourceTree = "<group>"; };
+		6A07E2EC1D1C10760051CADC /* ONETabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONETabBarController.m; sourceTree = "<group>"; };
+		6A07E2EE1D1C10940051CADC /* ONENavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONENavigationController.h; sourceTree = "<group>"; };
+		6A07E2EF1D1C10940051CADC /* ONENavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONENavigationController.m; sourceTree = "<group>"; };
+		6A07E2F41D1C20FE0051CADC /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		6A07E2F51D1C20FE0051CADC /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
+		6A07E2F81D1C24C00051CADC /* one.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = one.pch; sourceTree = "<group>"; };
+		6AE579A11D1C32F000740B1D /* ONEHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONEHomeViewController.h; sourceTree = "<group>"; };
+		6AE579A21D1C32F000740B1D /* ONEHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONEHomeViewController.m; sourceTree = "<group>"; };
+		6AECC1D31D1CF05D0077274D /* UIBarButtonItem+item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+item.h"; sourceTree = "<group>"; };
+		6AECC1D41D1CF05D0077274D /* UIBarButtonItem+item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+item.m"; sourceTree = "<group>"; };
+		6AECC1DA1D1D132B0077274D /* ONEMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONEMovieViewController.h; sourceTree = "<group>"; };
+		6AECC1DB1D1D132B0077274D /* ONEMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONEMovieViewController.m; sourceTree = "<group>"; };
+		6AECC1DD1D1D136B0077274D /* ONEReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONEReadViewController.h; sourceTree = "<group>"; };
+		6AECC1DE1D1D136B0077274D /* ONEReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONEReadViewController.m; sourceTree = "<group>"; };
+		6AECC1E01D1D15AA0077274D /* ONEMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONEMusicViewController.h; sourceTree = "<group>"; };
+		6AECC1E11D1D15AA0077274D /* ONEMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONEMusicViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A07E2B21D1BEBB80051CADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A07E2AC1D1BEBB80051CADC = {
+			isa = PBXGroup;
+			children = (
+				6A07E2B71D1BEBB80051CADC /* one */,
+				6A07E2B61D1BEBB80051CADC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A07E2B61D1BEBB80051CADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A07E2B51D1BEBB80051CADC /* one.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A07E2B71D1BEBB80051CADC /* one */ = {
+			isa = PBXGroup;
+			children = (
+				6A07E2CF1D1BEE7D0051CADC /* Classes */,
+				6A07E2C41D1BEBB80051CADC /* Assets.xcassets */,
+				6A07E2C61D1BEBB80051CADC /* LaunchScreen.storyboard */,
+				6A07E2C91D1BEBB80051CADC /* Info.plist */,
+				6A07E2B81D1BEBB80051CADC /* Supporting Files */,
+			);
+			path = one;
+			sourceTree = "<group>";
+		};
+		6A07E2B81D1BEBB80051CADC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A07E2CF1D1BEE7D0051CADC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6A07E2D41D1BEE7D0051CADC /* Main */,
+				6A07E2D01D1BEE7D0051CADC /* Home(首页) */,
+				6A07E2DC1D1BEE7D0051CADC /* Music(音乐) */,
+				6AECC1D61D1D130D0077274D /* Movie(电影) */,
+				6A07E2E51D1BEE7D0051CADC /* Read(阅读) */,
+				6A07E2E01D1BEE7D0051CADC /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6A07E2D01D1BEE7D0051CADC /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				6A07E2D11D1BEE7D0051CADC /* Controller */,
+				6A07E2D21D1BEE7D0051CADC /* Model */,
+				6A07E2D31D1BEE7D0051CADC /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		6A07E2D11D1BEE7D0051CADC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6AE579A11D1C32F000740B1D /* ONEHomeViewController.h */,
+				6AE579A21D1C32F000740B1D /* ONEHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A07E2D21D1BEE7D0051CADC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A07E2D31D1BEE7D0051CADC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A07E2D41D1BEE7D0051CADC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6A07E2D51D1BEE7D0051CADC /* Controller */,
+				6A07E2D61D1BEE7D0051CADC /* Model */,
+				6A07E2D71D1BEE7D0051CADC /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6A07E2D51D1BEE7D0051CADC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A07E2EB1D1C10760051CADC /* ONETabBarController.h */,
+				6A07E2EC1D1C10760051CADC /* ONETabBarController.m */,
+				6A07E2EE1D1C10940051CADC /* ONENavigationController.h */,
+				6A07E2EF1D1C10940051CADC /* ONENavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A07E2D61D1BEE7D0051CADC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A07E2D71D1BEE7D0051CADC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A07E2DC1D1BEE7D0051CADC /* Music(音乐) */ = {
+			isa = PBXGroup;
+			children = (
+				6A07E2DD1D1BEE7D0051CADC /* Controller */,
+				6A07E2DE1D1BEE7D0051CADC /* Model */,
+				6A07E2DF1D1BEE7D0051CADC /* View */,
+			);
+			path = "Music(音乐)";
+			sourceTree = "<group>";
+		};
+		6A07E2DD1D1BEE7D0051CADC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6AECC1E01D1D15AA0077274D /* ONEMusicViewController.h */,
+				6AECC1E11D1D15AA0077274D /* ONEMusicViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A07E2DE1D1BEE7D0051CADC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A07E2DF1D1BEE7D0051CADC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A07E2E01D1BEE7D0051CADC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6A07E2E11D1BEE7D0051CADC /* AppDelegate.h */,
+				6A07E2E21D1BEE7D0051CADC /* AppDelegate.m */,
+				6A07E2E31D1BEE7D0051CADC /* category */,
+				6A07E2E41D1BEE7D0051CADC /* main.m */,
+				6A07E2F81D1C24C00051CADC /* one.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		6A07E2E31D1BEE7D0051CADC /* category */ = {
+			isa = PBXGroup;
+			children = (
+				6A07E2F41D1C20FE0051CADC /* UIImage+image.h */,
+				6A07E2F51D1C20FE0051CADC /* UIImage+image.m */,
+				6AECC1D31D1CF05D0077274D /* UIBarButtonItem+item.h */,
+				6AECC1D41D1CF05D0077274D /* UIBarButtonItem+item.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		6A07E2E51D1BEE7D0051CADC /* Read(阅读) */ = {
+			isa = PBXGroup;
+			children = (
+				6A07E2E61D1BEE7D0051CADC /* Controller */,
+				6A07E2E71D1BEE7D0051CADC /* Model */,
+				6A07E2E81D1BEE7D0051CADC /* View */,
+			);
+			path = "Read(阅读)";
+			sourceTree = "<group>";
+		};
+		6A07E2E61D1BEE7D0051CADC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6AECC1DD1D1D136B0077274D /* ONEReadViewController.h */,
+				6AECC1DE1D1D136B0077274D /* ONEReadViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A07E2E71D1BEE7D0051CADC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A07E2E81D1BEE7D0051CADC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6AECC1D61D1D130D0077274D /* Movie(电影) */ = {
+			isa = PBXGroup;
+			children = (
+				6AECC1D71D1D130D0077274D /* Controller */,
+				6AECC1D81D1D130D0077274D /* Model */,
+				6AECC1D91D1D130D0077274D /* View */,
+			);
+			path = "Movie(电影)";
+			sourceTree = "<group>";
+		};
+		6AECC1D71D1D130D0077274D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6AECC1DA1D1D132B0077274D /* ONEMovieViewController.h */,
+				6AECC1DB1D1D132B0077274D /* ONEMovieViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6AECC1D81D1D130D0077274D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6AECC1D91D1D130D0077274D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A07E2B41D1BEBB80051CADC /* one */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A07E2CC1D1BEBB80051CADC /* Build configuration list for PBXNativeTarget "one" */;
+			buildPhases = (
+				6A07E2B11D1BEBB80051CADC /* Sources */,
+				6A07E2B21D1BEBB80051CADC /* Frameworks */,
+				6A07E2B31D1BEBB80051CADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = one;
+			productName = one;
+			productReference = 6A07E2B51D1BEBB80051CADC /* one.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A07E2AD1D1BEBB80051CADC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ONE;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = TimorYang;
+				TargetAttributes = {
+					6A07E2B41D1BEBB80051CADC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 6A07E2B01D1BEBB80051CADC /* Build configuration list for PBXProject "one" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A07E2AC1D1BEBB80051CADC;
+			productRefGroup = 6A07E2B61D1BEBB80051CADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A07E2B41D1BEBB80051CADC /* one */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A07E2B31D1BEBB80051CADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A07E2C81D1BEBB80051CADC /* LaunchScreen.storyboard in Resources */,
+				6A07E2C51D1BEBB80051CADC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A07E2B11D1BEBB80051CADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A07E2EA1D1BEE7D0051CADC /* main.m in Sources */,
+				6AECC1DF1D1D136B0077274D /* ONEReadViewController.m in Sources */,
+				6A07E2ED1D1C10760051CADC /* ONETabBarController.m in Sources */,
+				6AECC1E21D1D15AA0077274D /* ONEMusicViewController.m in Sources */,
+				6AE579A31D1C32F000740B1D /* ONEHomeViewController.m in Sources */,
+				6A07E2F61D1C20FE0051CADC /* UIImage+image.m in Sources */,
+				6AECC1DC1D1D132B0077274D /* ONEMovieViewController.m in Sources */,
+				6AECC1D51D1CF05D0077274D /* UIBarButtonItem+item.m in Sources */,
+				6A07E2F01D1C10940051CADC /* ONENavigationController.m in Sources */,
+				6A07E2E91D1BEE7D0051CADC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A07E2C61D1BEBB80051CADC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A07E2C71D1BEBB80051CADC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A07E2CA1D1BEBB80051CADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A07E2CB1D1BEBB80051CADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A07E2CD1D1BEBB80051CADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = one/Classes/Other/one.pch;
+				INFOPLIST_FILE = one/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timoryang.one;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A07E2CE1D1BEBB80051CADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = one/Classes/Other/one.pch;
+				INFOPLIST_FILE = one/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timoryang.one;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A07E2B01D1BEBB80051CADC /* Build configuration list for PBXProject "one" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A07E2CA1D1BEBB80051CADC /* Debug */,
+				6A07E2CB1D1BEBB80051CADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A07E2CC1D1BEBB80051CADC /* Build configuration list for PBXNativeTarget "one" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A07E2CD1D1BEBB80051CADC /* Debug */,
+				6A07E2CE1D1BEBB80051CADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A07E2AD1D1BEBB80051CADC /* Project object */;
+}
