@@ -29,6 +29,7 @@
 #import "ONEHomeViewController.h"
 #import "UIImage+image.h"
 #import "UIBarButtonItem+item.h"
+#import "ONEBottomView.h"
 
 @interface ONEHomeViewController ()
 
@@ -38,14 +39,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = ONEBackgroundColor;
     
     //设置导航栏内容
     [self setupNavigationBar];
     
     //添加底部的View
-    [self setupBackgroundView];
+    [self setupToolsView];
     
     
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
     
 }
 
@@ -74,19 +81,24 @@
 }
 
 #pragma mark - 添加底部的背景View
-- (void)setupBackgroundView
+- (void)setupToolsView
 {
     //位置和尺寸
-    CGFloat bgView_x = 0;
-    CGFloat bgView_y = ONEScreenH ;
-    CGFloat bgView_w = ONEScreenW;
-    CGFloat bgView_h = 40;
+    CGFloat toolsView_x = 0;
+    CGFloat toolsView_y = ONEScreenH * 0.83;
+    CGFloat toolsView_w = ONEScreenW;
+    CGFloat toolsView_h = 42;
     //创建UIView
-    UIView *backgroundView = [[UIView alloc]initWithFrame:CGRectMake(bgView_x, bgView_y, bgView_w, bgView_h)];
+    UIView *toolsView = [[UIView alloc]initWithFrame:CGRectMake(toolsView_x, toolsView_y, toolsView_w, toolsView_h)];
     //设置背景颜色
-    backgroundView.backgroundColor = ONEBackgroundColor;
+    toolsView.backgroundColor = ONEBackgroundColor;
+    //创建
+    ONEBottomView *bottomView = [ONEBottomView bottomView];
+    //添加到ToolsView
+    bottomView.frame = toolsView.bounds;
+    [toolsView addSubview:bottomView];
     //添加到view上
-    [self .view addSubview:backgroundView];
+    [self.view addSubview:toolsView];
     
 }
 

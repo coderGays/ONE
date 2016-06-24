@@ -26,6 +26,9 @@
 		6AE76C761D1D21B200B2EFE8 /* 9 in Resources */ = {isa = PBXBuildFile; fileRef = 6AE76C751D1D21B200B2EFE8 /* 9 */; };
 		6AE76C781D1D21BA00B2EFE8 /* 10 in Resources */ = {isa = PBXBuildFile; fileRef = 6AE76C771D1D21BA00B2EFE8 /* 10 */; };
 		6AE76C7A1D1D21C600B2EFE8 /* 11 in Resources */ = {isa = PBXBuildFile; fileRef = 6AE76C791D1D21C600B2EFE8 /* 11 */; };
+		6AE76C7D1D1D25B800B2EFE8 /* ONEBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE76C7C1D1D25B800B2EFE8 /* ONEBottomView.m */; };
+		6AE76C811D1D262300B2EFE8 /* ONEBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AE76C801D1D262300B2EFE8 /* ONEBottomView.xib */; };
+		6AE76C831D1D54E300B2EFE8 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AE76C821D1D54E300B2EFE8 /* View.xib */; };
 		6AECC1D51D1CF05D0077274D /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AECC1D41D1CF05D0077274D /* UIBarButtonItem+item.m */; };
 		6AECC1DC1D1D132B0077274D /* ONEMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AECC1DB1D1D132B0077274D /* ONEMovieViewController.m */; };
 		6AECC1DF1D1D136B0077274D /* ONEReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AECC1DE1D1D136B0077274D /* ONEReadViewController.m */; };
@@ -60,6 +63,10 @@
 		6AE76C751D1D21B200B2EFE8 /* 9 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 9; sourceTree = "<group>"; };
 		6AE76C771D1D21BA00B2EFE8 /* 10 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 10; sourceTree = "<group>"; };
 		6AE76C791D1D21C600B2EFE8 /* 11 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 11; sourceTree = "<group>"; };
+		6AE76C7B1D1D25B800B2EFE8 /* ONEBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONEBottomView.h; sourceTree = "<group>"; };
+		6AE76C7C1D1D25B800B2EFE8 /* ONEBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONEBottomView.m; sourceTree = "<group>"; };
+		6AE76C801D1D262300B2EFE8 /* ONEBottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ONEBottomView.xib; sourceTree = "<group>"; };
+		6AE76C821D1D54E300B2EFE8 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		6AECC1D31D1CF05D0077274D /* UIBarButtonItem+item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+item.h"; sourceTree = "<group>"; };
 		6AECC1D41D1CF05D0077274D /* UIBarButtonItem+item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+item.m"; sourceTree = "<group>"; };
 		6AECC1DA1D1D132B0077274D /* ONEMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONEMovieViewController.h; sourceTree = "<group>"; };
@@ -161,6 +168,10 @@
 			isa = PBXGroup;
 			children = (
 				6AE76C6B1D1D218200B2EFE8 /* 4 */,
+				6AE76C7B1D1D25B800B2EFE8 /* ONEBottomView.h */,
+				6AE76C7C1D1D25B800B2EFE8 /* ONEBottomView.m */,
+				6AE76C801D1D262300B2EFE8 /* ONEBottomView.xib */,
+				6AE76C821D1D54E300B2EFE8 /* View.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -389,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AE76C721D1D219E00B2EFE8 /* 7 in Resources */,
+				6AE76C831D1D54E300B2EFE8 /* View.xib in Resources */,
 				6AE76C661D1D214D00B2EFE8 /* 1 in Resources */,
 				6AE76C681D1D215700B2EFE8 /* 2 in Resources */,
 				6AE76C7A1D1D21C600B2EFE8 /* 11 in Resources */,
@@ -398,6 +410,7 @@
 				6AE76C701D1D219400B2EFE8 /* 6 in Resources */,
 				6AE76C761D1D21B200B2EFE8 /* 9 in Resources */,
 				6AE76C6A1D1D217800B2EFE8 /* 3 in Resources */,
+				6AE76C811D1D262300B2EFE8 /* ONEBottomView.xib in Resources */,
 				6AE76C6E1D1D218B00B2EFE8 /* 5 in Resources */,
 				6AE76C741D1D21A700B2EFE8 /* 8 in Resources */,
 				6AE76C781D1D21BA00B2EFE8 /* 10 in Resources */,
@@ -419,6 +432,7 @@
 				6A07E2F61D1C20FE0051CADC /* UIImage+image.m in Sources */,
 				6AECC1DC1D1D132B0077274D /* ONEMovieViewController.m in Sources */,
 				6AECC1D51D1CF05D0077274D /* UIBarButtonItem+item.m in Sources */,
+				6AE76C7D1D1D25B800B2EFE8 /* ONEBottomView.m in Sources */,
 				6A07E2F01D1C10940051CADC /* ONENavigationController.m in Sources */,
 				6A07E2E91D1BEE7D0051CADC /* AppDelegate.m in Sources */,
 			);
