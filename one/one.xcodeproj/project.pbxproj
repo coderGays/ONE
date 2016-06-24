@@ -70,6 +70,7 @@
 		6AE76C821D1D54E300B2EFE8 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		6AE76C841D1D563000B2EFE8 /* ONE1111111.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONE1111111.h; sourceTree = "<group>"; };
 		6AE76C851D1D563000B2EFE8 /* ONE1111111.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONE1111111.m; sourceTree = "<group>"; };
+		6AE76C871D1D56A700B2EFE8 /* 222222.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 222222.h; sourceTree = "<group>"; };
 		6AECC1D31D1CF05D0077274D /* UIBarButtonItem+item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+item.h"; sourceTree = "<group>"; };
 		6AECC1D41D1CF05D0077274D /* UIBarButtonItem+item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+item.m"; sourceTree = "<group>"; };
 		6AECC1DA1D1D132B0077274D /* ONEMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONEMovieViewController.h; sourceTree = "<group>"; };
@@ -115,6 +116,7 @@
 				6A07E2C61D1BEBB80051CADC /* LaunchScreen.storyboard */,
 				6A07E2C91D1BEBB80051CADC /* Info.plist */,
 				6A07E2B81D1BEBB80051CADC /* Supporting Files */,
+				6AE76C871D1D56A700B2EFE8 /* 222222.h */,
 			);
 			path = one;
 			sourceTree = "<group>";
