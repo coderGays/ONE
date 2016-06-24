@@ -29,6 +29,7 @@
 		6AE76C7D1D1D25B800B2EFE8 /* ONEBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE76C7C1D1D25B800B2EFE8 /* ONEBottomView.m */; };
 		6AE76C811D1D262300B2EFE8 /* ONEBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AE76C801D1D262300B2EFE8 /* ONEBottomView.xib */; };
 		6AE76C831D1D54E300B2EFE8 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AE76C821D1D54E300B2EFE8 /* View.xib */; };
+		6AE76C861D1D563000B2EFE8 /* ONE1111111.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE76C851D1D563000B2EFE8 /* ONE1111111.m */; };
 		6AECC1D51D1CF05D0077274D /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AECC1D41D1CF05D0077274D /* UIBarButtonItem+item.m */; };
 		6AECC1DC1D1D132B0077274D /* ONEMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AECC1DB1D1D132B0077274D /* ONEMovieViewController.m */; };
 		6AECC1DF1D1D136B0077274D /* ONEReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AECC1DE1D1D136B0077274D /* ONEReadViewController.m */; };
@@ -67,6 +68,8 @@
 		6AE76C7C1D1D25B800B2EFE8 /* ONEBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONEBottomView.m; sourceTree = "<group>"; };
 		6AE76C801D1D262300B2EFE8 /* ONEBottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ONEBottomView.xib; sourceTree = "<group>"; };
 		6AE76C821D1D54E300B2EFE8 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		6AE76C841D1D563000B2EFE8 /* ONE1111111.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONE1111111.h; sourceTree = "<group>"; };
+		6AE76C851D1D563000B2EFE8 /* ONE1111111.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONE1111111.m; sourceTree = "<group>"; };
 		6AECC1D31D1CF05D0077274D /* UIBarButtonItem+item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+item.h"; sourceTree = "<group>"; };
 		6AECC1D41D1CF05D0077274D /* UIBarButtonItem+item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+item.m"; sourceTree = "<group>"; };
 		6AECC1DA1D1D132B0077274D /* ONEMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONEMovieViewController.h; sourceTree = "<group>"; };
@@ -133,6 +136,8 @@
 				6AECC1D61D1D130D0077274D /* Movie(电影) */,
 				6A07E2E51D1BEE7D0051CADC /* Read(阅读) */,
 				6A07E2E01D1BEE7D0051CADC /* Other */,
+				6AE76C841D1D563000B2EFE8 /* ONE1111111.h */,
+				6AE76C851D1D563000B2EFE8 /* ONE1111111.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -428,6 +433,7 @@
 				6AECC1DF1D1D136B0077274D /* ONEReadViewController.m in Sources */,
 				6A07E2ED1D1C10760051CADC /* ONETabBarController.m in Sources */,
 				6AECC1E21D1D15AA0077274D /* ONEMusicViewController.m in Sources */,
+				6AE76C861D1D563000B2EFE8 /* ONE1111111.m in Sources */,
 				6AE579A31D1C32F000740B1D /* ONEHomeViewController.m in Sources */,
 				6A07E2F61D1C20FE0051CADC /* UIImage+image.m in Sources */,
 				6AECC1DC1D1D132B0077274D /* ONEMovieViewController.m in Sources */,
